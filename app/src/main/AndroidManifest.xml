@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--Manifest文件中配置我们用于播放音乐的服务-->
+        <service android:name=".MusicService" />
     </application>
 
 </manifest>
